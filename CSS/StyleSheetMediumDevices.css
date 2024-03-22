@@ -13,6 +13,9 @@
       --DisplayBreakRenglones: block;
       --AlturaSeparadorSecciones:100px;
       /* Elementos Página */
+      --WidthBoxed: 80vw;
+      --PaddingSecciones:45px;
+      --TamanoFuenteEstadisticaTitulo:16px;
      --CambioAnchoColumnaBeneficio:50%;
      --CambioDireccionBeneficio:row;
      --BeneficioOrdenTexto:2;

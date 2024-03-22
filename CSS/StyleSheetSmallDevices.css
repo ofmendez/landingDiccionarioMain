@@ -7,11 +7,8 @@
 --FontSizeH3: 20px;
 --FontSizeH4: 16px;
       /* Elementos Página */
-      --WidthBoxed: 80vw;
-      --PaddingSecciones:45px;
       --MenuAnchoElemento50:50%;
       --MenuAnchoElemento100:100%;
-      --TamanoFuenteEstadisticaTitulo:16px;
      --CambioDireccionFooterMenus:row;
      --DisplayLoginInferior:block;
      --PosicionFooterSuperior: space-between;
