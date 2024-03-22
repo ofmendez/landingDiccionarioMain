@@ -234,6 +234,7 @@ flex-basis: var(--MenuAnchoElemento100);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    column-gap: 15px;
 }
 
 .Estadistica{
