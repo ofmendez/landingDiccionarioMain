@@ -19,11 +19,11 @@
      --FontSizeH4: 18px;
      /* Configuraciones */
      --MaxWidth: 1024px;
-     --WidthBoxed: 80vw;
+     --WidthBoxed: 88vw;
      --RadioEsquinasBotones: 10px;
      --RadioEsquinasSecciones:30px;
      --PaddingBotones: 14px 20px;
-     --PaddingSecciones:45px;
+     --PaddingSecciones:35px;
      --AlturaSeparadorSecciones:60px;
      --AlturaSeparadorBeneficio:60px;
      --CambioDireccionMovil:column;
@@ -38,6 +38,7 @@
      --MenuAnchoElemento100:100%;
      --ImgWidthAplicativoMovil:65%;
      --ImgMarginBottomAplicativoMovil:-200px;
+     --TamanoFuenteEstadisticaTitulo:14px;
      --BeneficioOrdenTexto:1;
      --BeneficioOrdenImagen:2;
      --CambioAnchoImagenBeneficio:100%;
@@ -251,6 +252,8 @@ flex-basis: var(--MenuAnchoElemento100);
 
 .EstadisticaTitulo{
     text-align: left;
+    font-size: var(--TamanoFuenteEstadisticaTitulo);
+    line-height: 1em;
 }
 
 .IconoEstadistica{
