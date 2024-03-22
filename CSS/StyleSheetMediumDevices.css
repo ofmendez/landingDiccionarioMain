@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+   :root {
+      /* Tipografías */
+--FontSizeH1: 50px;
+--FontSizeH2: 30px;
+--FontSizeH3: 22px;
+--FontSizeH4: 18px;
+      /* Configuraciones */
+      --MenuHeaderOrdenMenu:2;
+      --MenuHeaderOrdenLogin:3;
+      --MenuAnchoElemento50:auto;
+      --MenuAnchoElemento100:auto;
+      --DisplayBreakRenglones: block;
+      --AlturaSeparadorSecciones:100px;
+      /* Elementos Página */
+     --CambioAnchoColumnaBeneficio:50%;
+     --CambioDireccionBeneficio:row;
+     --BeneficioOrdenTexto:2;
+     --BeneficioOrdenImagen:1;
+     --CambioAnchoImagenBeneficio:80%;
+     --CambioDireccionPlanes: row;
+     --CambioAnchoColumnaPlanesMovil:50%;
+     --CambioDireccionFooterEnlaces:row;
+     
+ }
+}
