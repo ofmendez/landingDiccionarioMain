@@ -46,6 +46,7 @@
      --CambioDireccionPlanes: column;
      --DisplayImgPlanes:none;
      --DisplayImgPlanesMovil:block;
+     --CambioDireccionLogos: column;
      --CambioDireccionFooterEnlaces:column;
      --CambioDireccionFooterMenus:column;
      --DisplayLoginInferior:none;
@@ -395,6 +396,20 @@ flex-basis: var(--MenuAnchoElemento100);
 
 .ImgCaracteristica{
     width:20px;
+}
+
+/* ------------------- Configuración Sección Logos ------------------- */
+
+.SeccionLogos{
+    display: flex;
+    flex-direction: var(--CambioDireccionLogos);
+    justify-content: center;
+    gap:2vw;
+}
+
+.SeccionLogos img{
+    width:100%;
+    max-width: 380px;
 }
 
 /* ------------------- Configuración Footer ------------------- */
