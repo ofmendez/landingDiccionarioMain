@@ -458,3 +458,21 @@ flex-basis: var(--MenuAnchoElemento100);
 .EnlacePowered, .EnlacePowered:visited, .EnlacePowered:active{
     color: var(--ColorOscuro);
 }
+
+/* ------------------- Configuración Footer ------------------- */
+.WhatsAppPermanente{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+}
+
+.WhatsAppPermanente img{
+    width:60px;
+    animation: AparecerLogo 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes AparecerLogo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
