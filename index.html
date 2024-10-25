@@ -24,11 +24,24 @@
       <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y57Z8JDL5R"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-Y57Z8JDL5R');
 
-  gtag('config', 'G-Y57Z8JDL5R');
+	fetch("https://api.diccionarioexplore.com/statistics", {
+		method: "GET",
+		headers: { "Content-Type": "application/json" }
+	}).then(response => {
+		if (response.ok) 
+			return response.json();
+		throw new Error("Error en la llamada a la API");
+	}).then(data => {
+		window.idStatistics_A.innerHTML = data.subterms;  // <-- Aquí asignamos el valor de las estadísticas
+	}).catch(error => {
+		console.error("Error:", error);
+	});
+
 </script>
 
       <!-- Marcado JSON-LD generado por el Asistente para el marcado de datos estructurados de Google. -->
@@ -100,7 +113,7 @@
             <div class="Estadistica">
                <div><img class="IconoEstadistica" alt="Icono Definiciones" src="Images/Terminos.svg"/></div>
                <div>
-                  <div class="EstadisticaCifra">2452</div>
+                  <div id="idStatistics_A" class="EstadisticaCifra">----</div>
                   <div class="EstadisticaTitulo">Definiciones</div>
                </div>
             </div>
